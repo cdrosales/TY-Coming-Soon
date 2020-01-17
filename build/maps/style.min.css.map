@@ -1,0 +1,1 @@
+{"version":3,"sources":["themes/_theme.scss"],"names":[],"mappings":"AAAA,KACI,sBAAsB,AACtB,UAAY,CACf","file":"../comingSoonTheme/style.min.css","sourcesContent":["body{\n    background-color: pink;\n    color: white;\n}"]}
