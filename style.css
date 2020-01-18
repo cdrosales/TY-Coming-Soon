@@ -27,3 +27,7 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center; }
+
+.ty-logo img {
+  width: 70%;
+  height: 100%; }
