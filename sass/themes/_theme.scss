@@ -34,6 +34,7 @@ h1{
     font-family: helvetica;
     letter-spacing: 8px;
     font-weight: bold;
+    font-size: 50px;
 }
 
 footer{
@@ -46,17 +47,21 @@ footer{
         width: auto;
         padding-left: 70%;
     }
+    a{
+        color: white;
+        text-decoration: none;
+    }    
 }
 
 .footer-wrapper{
     position: relative;
-    top: -100px;
+    top: -75px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin: 0 auto;
     width: 75%;
-    height: 42px;
+    height: 32px;
 
     h2{
         text-align: left;
@@ -64,10 +69,12 @@ footer{
         text-transform: uppercase;
         letter-spacing: 4px;
         margin: auto 0;
+        font-size: 18px;
     }
     .fa-instagram{
-        font-size: 40px;
-        max-height: 42px;
+        font-size: 30px;
+        max-height: 32px;
         padding-right: 10px;
     }
 }
+
