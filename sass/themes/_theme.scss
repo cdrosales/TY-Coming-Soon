@@ -78,3 +78,24 @@ footer{
     }
 }
 
+@media only screen and (min-width: 600px) {
+    .footer-wrapper{
+        top: -130px;
+    }
+    h1{
+        font-size: 36px;
+        padding-top: 2%;
+    }
+    
+}
+
+@media only screen and (min-width: 375px) {
+    .footer-wrapper{
+        top: -120px;
+    }
+    h1{
+        font-size: 24px;
+        padding-top: 3%;
+    }
+}
+
