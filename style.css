@@ -57,9 +57,27 @@ footer {
 
 .footer-wrapper {
   position: relative;
-  top: -100px; }
+  top: -100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  width: 75%;
+  height: 42px; }
   .footer-wrapper h2 {
-    text-align: center;
+    text-align: left;
     font-family: helvetica;
     text-transform: uppercase;
-    letter-spacing: 4px; }
+    letter-spacing: 4px;
+    margin: auto 0; }
+  .footer-wrapper .fa-instagram {
+    font-size: 40px;
+    max-height: 42px;
+    padding-right: 10px; }
