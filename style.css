@@ -31,7 +31,8 @@ body {
             justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            align-items: center; }
+            align-items: center;
+    overflow: hidden; }
 
 .ty-logo img {
   width: 42%;
@@ -45,7 +46,10 @@ h1 {
   letter-spacing: 8px;
   font-weight: bold; }
 
-.background-smoke {
-  height: 100vh;
-  width: auto;
-  padding-left: 70%; }
+footer {
+  max-width: 100vw;
+  overflow: hidden; }
+  footer .background-smoke {
+    height: 100vh;
+    width: auto;
+    padding-left: 70%; }
