@@ -83,7 +83,8 @@ footer{
         top: -130px;
     }
     h1{
-        font-size: 36px;
+        font-size: 28px;
+        letter-spacing: 5px;
         padding-top: 2%;
     }   
     footer{
@@ -91,16 +92,18 @@ footer{
             padding-left: 35%;
         }
     } 
+
 }
 
-@media only screen and (max-width: 600px) and (min-width: 375px){
+@media only screen and (max-width: 600px) and (min-width: 300px){
 
     .footer-wrapper{
         top: -120px;
     }
     h1{
-        font-size: 24px;
+        font-size: 22px;
         padding-top: 3%;
+        letter-spacing: 4px;
     }
     .ty-logo{
         img{
