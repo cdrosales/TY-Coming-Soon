@@ -87,22 +87,22 @@ footer {
     max-height: 32px;
     padding-right: 10px; }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 1240px) and (min-width: 600px) {
   .footer-wrapper {
     top: -130px; }
   h1 {
     font-size: 36px;
     padding-top: 2%; }
   footer .background-smoke {
-    padding-left: 30%; } }
+    padding-left: 35%; } }
 
-@media only screen and (min-width: 375px) {
+@media only screen and (max-width: 600px) and (min-width: 375px) {
   .footer-wrapper {
     top: -120px; }
   h1 {
     font-size: 24px;
     padding-top: 3%; }
-  footer .background-smoke {
-    padding-left: 30%; }
   .ty-logo img {
-    width: 50%; } }
+    width: 50%; }
+  footer .background-smoke {
+    padding-left: 30%; } }
