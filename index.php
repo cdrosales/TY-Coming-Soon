@@ -10,10 +10,12 @@
             </div>
             <h1><?php the_title(); ?></h1> 
         <?php endwhile; ?> 
+
 </div>
 
 <?php else : ?>
         <p>No posts found</p>
 <?php endif; ?>
+
 
 <?php get_footer(); ?>

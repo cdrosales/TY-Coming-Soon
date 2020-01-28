@@ -1,23 +1,30 @@
 /*
-Theme Name: Inhabitant
+Theme Name: Coming Soon Theme
 Author: Cara Denise Rosales
 Description: A theme I made.
 Version: 1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: inhabitant
+Text Domain: comingSoon
 */
+html {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden; }
+
 body {
   background-color: #020004;
   color: white;
   text-align: center; }
 
 .wrapper {
-  width: 75%;
-  padding: 0 auto; }
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden; }
   .wrapper .post-wrapper {
     position: absolute;
-    width: 100%;
+    top: 0;
+    width: 100vw;
     height: 100vh;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -35,7 +42,7 @@ body {
     overflow: hidden; }
 
 .ty-logo img {
-  width: 42%;
+  width: 35%;
   min-width: 315px;
   height: auto; }
 
@@ -45,23 +52,21 @@ h1 {
   font-family: helvetica;
   letter-spacing: 8px;
   font-weight: bold;
-  font-size: 50px; }
+  font-size: 40px; }
 
-footer {
-  max-width: 100vw;
-  overflow: hidden;
-  max-height: 100vh; }
-  footer .background-smoke {
-    height: 100vh;
-    width: auto;
-    padding-left: 70%; }
-  footer a {
-    color: white;
-    text-decoration: none; }
+footer .background-smoke {
+  position: fixed;
+  top: 0;
+  padding-left: 10%;
+  width: auto; }
+
+footer a {
+  color: white;
+  text-decoration: none; }
 
 .footer-wrapper {
   position: relative;
-  top: -75px;
+  top: -125px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -95,7 +100,7 @@ footer {
     letter-spacing: 5px;
     padding-top: 2%; }
   footer .background-smoke {
-    padding-left: 35%; } }
+    padding-left: 0; } }
 
 @media only screen and (max-width: 600px) and (min-width: 300px) {
   .footer-wrapper {
@@ -107,4 +112,4 @@ footer {
   .ty-logo img {
     width: 50%; }
   footer .background-smoke {
-    padding-left: 30%; } }
+    left: 0; } }
