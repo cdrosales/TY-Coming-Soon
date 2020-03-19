@@ -5,6 +5,8 @@ function ty_files(){
     // NAME & LOCATION FOR PARAMETERS
     wp_enqueue_style('ty_styles', get_stylesheet_uri(), NULL, microtime()); // first parameter name of styleshee & second is the location
     wp_enqueue_style('fonts', 'https://fonts.googleapis.com/css?family=Lato&display=swap');
+    wp_enqueue_script('ty_scripts_js', get_template_directory_uri() . '/js/scripts.js', array('jquery'), null, true);
+
 }
 
 add_action('wp_enqueue_scripts', 'ty_files');//add stylesheet

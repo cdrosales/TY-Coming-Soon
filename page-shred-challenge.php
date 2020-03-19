@@ -10,8 +10,7 @@
             the_post();?> 
 
 <form ... onsubmit="return checkForm(this);">
-<p><input type="checkbox" required name="terms"> I accept the <u>Terms and Conditions</u></p>
-<p>
+<p><input type="checkbox" required name="terms" class="terms-conditions"> I accept the <u>Terms and Conditions</u></p>
 </form>
 
             <?php the_content(); ?>
