@@ -9,6 +9,8 @@ body{
     text-align: center;
 }
 
+
+
 .wrapper{
     width: 100vw;
     height: 100vh;
@@ -82,8 +84,33 @@ footer{
         padding-right: 10px;
     }
 }
+.agreement{
+    margin: 2% 0 1% 0;
 
+    p{
+        font-family: helvetica;
+        letter-spacing: 1px;
+        text-transform: capitalize;
+        font-size: 15px;
+        padding-bottom: 6%;
+    }
+}
 
+.terms-conditions{
+    color: white;
+}
+
+.terms-conditions:hover{
+    color: grey
+}
+
+#dwd{
+    font-size: 16px;
+    padding: 12px 20px;
+    font-family: 'Helvetica';
+    letter-spacing: 2.5px;
+    font-weight: bold;  
+}
 
 
 

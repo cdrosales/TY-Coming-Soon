@@ -90,6 +90,28 @@ footer a {
     max-height: 32px;
     padding-right: 10px; }
 
+.agreement {
+  margin: 2% 0 1% 0; }
+  .agreement p {
+    font-family: helvetica;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    font-size: 15px;
+    padding-bottom: 6%; }
+
+.terms-conditions {
+  color: white; }
+
+.terms-conditions:hover {
+  color: grey; }
+
+#dwd {
+  font-size: 16px;
+  padding: 12px 20px;
+  font-family: 'Helvetica';
+  letter-spacing: 2.5px;
+  font-weight: bold; }
+
 @media only screen and (max-width: 1240px) and (min-width: 600px) {
   .footer-wrapper {
     top: -225px; }
