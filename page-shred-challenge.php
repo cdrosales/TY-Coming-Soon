@@ -10,13 +10,15 @@
             the_post();?> 
 
 <form ... onsubmit="return checkForm(this);">
-<p><input type="checkbox" required name="terms" class="terms-conditions"> I accept the <u>Terms and Conditions</u></p>
+<p><input type="checkbox" required name="terms" class="terms-conditions-CB"> I accept the <a href="http://localhost:3000/ty-coming-soon/terms-and-conditions/" class="terms-conditions" target="_blank">Terms and Conditions</a></p>
 </form>
 
             <?php the_content(); ?>
         <?php endwhile; ?> 
 
 </div>
+
+
 
 
 

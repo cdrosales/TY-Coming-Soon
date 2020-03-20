@@ -1,7 +1,16 @@
 (function( $ ) {
 
     $('.download-BTN').on('click', function(event) {
-           console.log('hello')
-           //make sure checkbox is checked
-        });
+        
+
+        if($('.terms-conditions-CB').is(':checked')) { 
+            console.log ('it worked')
+        } else {
+            console.log('keep trying')
+            event.preventDefault();
+        }
+    });
+
+
+
 })( jQuery );
